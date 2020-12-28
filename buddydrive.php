@@ -4,7 +4,7 @@ Plugin Name: BuddyDrive
 Plugin URI: https://wordpress.org/plugins/buddydrive/
 Description: A plugin to share files, the BuddyPress way!
 Version: 2.1.3
-Author: mrpritchett
+Author: mrpritchett (Idecima)
 Author URI: http://pritchett.media
 License: GPLv2
 Text Domain: buddydrive
