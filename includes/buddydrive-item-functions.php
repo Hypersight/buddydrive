@@ -121,7 +121,8 @@ function buddydrive_localize_ui() {
 
 	if ( buddydrive_current_user_can( 'buddydrive_upload' ) ) {
 		$l10n_array['settings']['manage_toolbar'] = array(
-			'new_file' => array(
+			/* Commented out for VesselJoin read only usage */
+			/*'new_file' => array(
 				'id'       => 'new_file',
 				'text'     => __( 'New File', 'buddydrive' ),
 				'dashicon' => 'welcome-add-page',
@@ -135,7 +136,7 @@ function buddydrive_localize_ui() {
 				'id'       => 'bulk',
 				'text'     => __( 'Bulk Actions', 'buddydrive' ),
 				'dashicon' => 'forms',
-			),
+			),*/
 		);
 
 		if ( bp_is_my_profile() ) {

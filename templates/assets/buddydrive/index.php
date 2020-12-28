@@ -61,8 +61,9 @@ defined( 'ABSPATH' ) || exit;
 					<a class="buddydrive-owner" href="{{data.user_link}}" data-user-id="{{data.user_id}}">{{{data.user_avatar}}}</a>
 				<# } #>
 
+				<!-- Commented out for VesselJoin read only usage -->
 				<# if ( data.can_edit ) { #>
-					<a class="buddydrive-edit" href="#edit/{{data.id}}"><span class="screen-reader-text bp-screen-reader-text"><?php esc_html_e( 'Edit', 'buddydrive' );?></span></a>
+					<!-- <a class="buddydrive-edit" href="#edit/{{data.id}}"><span class="screen-reader-text bp-screen-reader-text"><?php esc_html_e( 'Edit', 'buddydrive' );?></span></a> -->
 				<# } #>
 
 				<?php do_action( 'buddydrive_js_template_file_actions' ); ?>
