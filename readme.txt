@@ -1,9 +1,9 @@
 === BuddyDrive ===
-Contributors: mrpritchett, imath
+Contributors: mrpritchett, imath, hypersight
 Tags: BuddyPress, files, folders
 Requires at least: 4.5
-Tested up to: 4.7.0
-Stable tag: 2.1.1
+Tested up to: 5.3.2
+Stable tag: 2.1.3
 License: GPLv2
 
 Share files the BuddyPress way!
@@ -31,7 +31,7 @@ Activate BuddyDrive in the "Plugins" admin panel using the "Network Activate" if
 
 = Help! No files show up. What do I do? =
 
-Upgrade to version 2.1.1 and run the database upgrade.
+Upgrade to version 2.1.2 and run the database upgrade.
 
 = How do you upload files in BuddyDrive from the front end? =
 
@@ -70,6 +70,12 @@ We love hearing your needs, want, desires, and ideas for BuddyPress! Our goal is
 5. BuddyDrive items administration.
 
 == Changelog ==
+
+= 2.1.3 =
+* Syncs with Freemius removal at 2.1.2 and removed add/edit/delete actions for VesselJoin.
+
+= 2.1.2 =
+* Removes Freemius from plugin.
 
 = 2.1.1 =
 * Fixes issue where upgrader wanted to run endlessly.
